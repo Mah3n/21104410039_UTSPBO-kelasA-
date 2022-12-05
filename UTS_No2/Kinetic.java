@@ -29,9 +29,4 @@ public class Kinetic {
     public void setKecepatan(double kecepatan) {
         this.kecepatan = kecepatan;
     }
-    
-    public double getEnergikinetic() {
-        return 0.5 * massa * kecepatan * kecepatan;
-    }
-
 }
